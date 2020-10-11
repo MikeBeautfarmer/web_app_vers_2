@@ -1,0 +1,69 @@
+{% extends "base2.html" %}
+{% block title %}Fakebook{% endblock %}
+
+{% block html_head %}
+<link rel="stylesheet" href="/static/css/fabostyle.css">
+<meta name="description" content="FAKEBOOK-PROFILE of Michael Schönbauer">
+<meta name="keywords" content="Fakebook, SmartNinja, Mike">
+<meta name="author" content="Michael Schönbauer">
+
+{% endblock %}
+
+{% block content %}
+<!-- TOP -->
+
+<div class="top">
+    <div class="logo"><i>Fakebook</i></div>
+    <div>SEARCH:
+        <div class="justspace"></div>
+        <input type="text" placeholder="Search by Name"></div>
+</div>
+
+<!-- Profile Head -->
+
+<div class="profile">
+
+    <div class="profhead">
+
+        <div>Michael Schönbauer</div>
+        <div>
+            <button class="buttonstyle">Add me!</button>
+        </div>
+
+    </div>
+
+    <div class="justspace"></div>
+
+    <img src="/static/img/fakeimg.jpg" width="400px" height="auto">
+
+    <!-- INFO TABLE -->
+
+    <div class="info">
+
+        <table>
+            <tr>
+                <th>Country:</th>
+                <td>Austria</td>
+            </tr>
+            <tr>
+                <th>City:</th>
+                <td>Vienna</td>
+            </tr>
+            <tr>
+                <th>Hobbies:</th>
+                <td>Music, Eating, Videogames</td>
+            </tr>
+            <tr>
+                <th>FB Friends:</th>
+                <td>333</td>
+            </tr>
+            <tr>
+                <th>FB Enemys:</th>
+                <td>-77</td>
+            </tr>
+        </table>
+
+    </div>
+
+</div>
+{% endblock content %}

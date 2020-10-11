@@ -1,0 +1,47 @@
+{% extends "base2.html" %}
+
+{% block title %}Fakegoogle aka Boogle{% endblock %}
+
+{% block html_head %}
+<link rel="stylesheet" href="/static/css/fagostyle.css">
+<meta name="author" content="Michael Schönbauer">
+<meta name="keywords" content="html, css, boogle">
+<meta name="description" content="fake-google, boogle, homework">
+<meta name="author" content="Mike">
+<meta http-equiv="refresh" content="120">
+{% endblock %}
+
+{% block content %}
+<div class="linkscontainer">
+    <div class="links"><a href="#">Boo-Mail</a></div>
+    <div class="links"><a href="#">Bilder</a></div>
+    <div class="links"><a href="#">Boogle-Apps</a></div>
+    <div class="links"><a href="#">Login</a></div>
+</div>
+
+<div class="haupt">
+    <div class="img"><img src="/static/img/boogle.png"></div>
+    <form>
+        <div><input class="searchfield" type="text" name="search" placeholder="Suche"></div>
+    </form>
+    <div class="buttmarg">
+        <button class="buttons">Boogle Suche</button>
+        <button class="buttons">Auf gut Glück</button>
+    </div>
+    <div class="lang">Boogle angeboten auf <a href="#">English</a></div>
+</div>
+
+<div class="footerr footerfixer fs">
+    <div class="justspace">Österreich</div>
+    <div class="footer2 fs">
+        <div class="justspace"><a href="#">Werbeprogramme</a></div>
+        <div class="justspace"><a href="#">Unternehmen</a></div>
+        <div class="justspace"><a href="#">Über Google</a></div>
+        <div class="justspace"><a href="#">Wie funktioniert die Google Suche?</a></div>
+        <div style="flex-grow: 2"></div>
+        <div class="justspace"><a href="#">Datenschutzerklärung</a></div>
+        <div class="justspace"><a href="#">Nutzungsbedingungen</a></div>
+        <div class="justspace"><a href="#">Einstellungen</a></div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,88 @@
+a:hover {
+    color: blue;
+}
+
+.linkscontainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links {
+    font-size: 14px;
+    margin: 3px;
+}
+
+.haupt {
+    display: flex;
+    flex-direction: column;
+    height: 777px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+
+}
+
+.searchfield {
+    width: 433px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('/static/img/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.buttmarg {
+    margin-top: 10px;
+}
+
+.buttons {
+    border: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.lang {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footerr {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerfixer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fs {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    font-size: 18px;
+}
+
+.justspace {
+    margin: 5px;
+}

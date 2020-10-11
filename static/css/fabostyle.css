@@ -1,0 +1,82 @@
+body {
+    background-color: lightblue;
+    margin: 30px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profile {
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profhead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 400px;
+}
+
+.buttonstyle {
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 7px;
+    transition-duration: 0.5s;
+}
+
+.buttonstyle:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 25px;
+}
+
+a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+table {
+    width: 400px;
+}
+
+table, td, th {
+    text-align: left;
+}
+
+th, td {
+    border-bottom: 1px solid grey;
+}
+
+.justspace {
+    margin: 15px;
+}
